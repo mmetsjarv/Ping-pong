@@ -6,8 +6,8 @@ pygame.init()
 
 SCREEN_WIDTH = 640
 SCREEN_HEIGHT = 480
-LIGHT_BLUE = (200, 230, 255)
-TEXT_COLOR = (0, 0, 0)
+TAUST = (153, 232, 158)
+TEXT_COLOR = (0, 102, 51)
 
 # Skoori värv
 SCORE_COLOR = (0, 102, 51)
@@ -75,7 +75,7 @@ while running:
             score += 1
 
     # Joonistamine
-    screen.fill(LIGHT_BLUE)
+    screen.fill(TAUST)
 
     screen.blit(ball_img, (ball_x, ball_y))
     screen.blit(paddle_img, (paddle_x, paddle_y))
